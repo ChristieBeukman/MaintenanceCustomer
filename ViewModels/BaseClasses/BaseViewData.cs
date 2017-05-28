@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ViewModels
+namespace ViewModels.BaseClasses
 {
-    public class Class1
+    class BaseViewData
     {
     }
 }

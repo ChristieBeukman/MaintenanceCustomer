@@ -19,8 +19,34 @@ namespace Messengers
             set;
         }
 
+        /// <summary>
+        /// What type of message this is
+        /// </summary>
+        public MessageTypes MessageType
+        {
+            get
+            {
+                return messageType;
+            }
+        }
+        private MessageTypes messageType;
 
+        /// <summary>
+        /// The payload for the message
+        /// </summary>
+        public object Payload
+        {
+            get;
+            set;
+        }
 
+        #endregion
+
+        #region Constructor
+        public Message(MessageTypes messageType)
+        {
+            this.messageType = messageType;
+        }
 #endregion
     }
 }

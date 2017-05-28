@@ -10,7 +10,9 @@ namespace Messengers
     {
         MSG_CUSTOMER_SELECTED_FOR_EDIT,     // Sent when a Customer is selected for Editing
         MSG_CUSTOMER_SAVED,                 // Sent when a Customer is updated in the Repository
+        
 
-       
+        MSG_SELECTED_FOR_EDIT,              //Sent  When a record is selected for Editing
+        MSG_SAVED                           //Sent when a record is updated in the Repository 
     }
 }
